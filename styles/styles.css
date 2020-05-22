@@ -1,0 +1,81 @@
+html {
+	font-size: 10px;
+	background: #ada996; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#eaeaea,
+		#dbdbdb,
+		#f2f2f2,
+		#ada996
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.6rem;
+	text-align: center;
+	color: #121717;
+	padding: 20px;
+	margin: 10px auto;
+}
+hr {
+	width: 600px;
+	border: 1px solid rgba(72, 69, 82, 0.1);
+	margin-top: 20px;
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+#title {
+	font-size: 7rem;
+}
+#title-icon-1,
+#title-icon-2 {
+	font-size: 3rem;
+	color: #484552;
+}
+#title-desc {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #484552;
+}
+#img-div {
+	padding: 2px;
+	margin: 0 auto;
+}
+#image {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+#img-caption {
+	font-size: 1.5rem;
+	margin: 10px 10px;
+	color: #484552;
+}
+#tribute-info {
+	font-size: 2rem;
+	text-align: justify;
+}
+#footer-info {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #484552;
+	margin-top: 10px;
+}
+@media (max-width: 480px) {
+	#title {
+		font-size: 5rem;
+	}
+	#title-desc {
+		font-size: 1.5rem;
+	}
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	color: green;
+}
